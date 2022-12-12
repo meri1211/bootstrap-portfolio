@@ -1,27 +1,24 @@
+/* created a section with a class of .grid-container, in order to give it a display of grid. */
 .grid-container {
     display: grid;
-    height: 100vh;
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr 3fr 2fr ;
-    grid-template-area:
-    "nav nav nav"
-    "main main main"
-    "footer footer footer";
-}
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 400px 400px;
+    grid-template-areas: 
+    "ai  calculator"
+    "contact  login"
+    ;
+    }
 
 
 
 
 nav {
     background-color: aquamarine;
-    grid-area: nav;
-
-}
+   }
 main {
     background-color: brown;
-    grid-area: main;
 }
 footer {
     background-color: cornflowerblue;
-    grid-area: footer;
+   
 }
