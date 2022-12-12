@@ -1,7 +1,11 @@
 /* created a section with a class of .grid-container, in order to give it a display of grid. */
 .grid-container {
+    width: 100%;
     display: grid;
-    grid-template-columns: 40% 40%;
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 45% 45%;
     grid-template-rows: 400px 400px;
     grid-template-areas: 
     "ai  calculator"
