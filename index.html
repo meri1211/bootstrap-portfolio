@@ -39,7 +39,9 @@
 <!--Added a section tag with a class of work where the projects will be displayed using css grid-->
 <section class="work grid-container" id="work" >
 <!---Added four bootstrap cards-->
-  <div class="card">
+<!---Added the media query classes for different screens and realized that the readme asked for flexbox grid, not css- display grid. Have used the correct technique. -->
+  <div class="row">
+  <div class="card col-xs-12 col-sm-8 col-md-6 col-lg-4">
     <img src="images\ai.jpg" class="card-img-top" alt="artificial inteligence">
     <div class="card-body">
       <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non a impedit accusamus, voluptatibus debitis quasi suscipit aliquam corrupti esse necessitatibus.
@@ -47,25 +49,26 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card col-xs-12 col-sm-8 col-md-6 col-lg-4">
     <img src="images\login-form.png" class="card-img-top" alt="login-form">
     <div class="card-body">
       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam excepturi possimus eius inventore libero, cumque consequatur dolore quia sunt ratione.</p>
     </div>
   </div>
 
-  <div class="card">
+  <div class="card col-xs-12 col-sm-8 col-md-6 col-lg-4">
     <img src="images\calculator.png" class="card-img-top" alt="calculator">
     <div class="card-body">
       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo accusantium sit pariatur doloremque nostrum itaque ex inventore recusandae voluptas repellat.</p>
     </div>
   </div>
-  <div class="card">
+  <div class="card col-xs-12 col-sm-8 col-md-6 col-lg-4">
     <img src="images\contact-form.png" class="card-img-top" alt="contact-form">
     <div class="card-body">
       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, quibusdam at! Aspernatur incidunt illum eius dolores. Necessitatibus consectetur ipsa ad!.</p>
     </div>
   </div>
+</div>
   </section>
   <!--Added a Skills section-->
   <section class="skills flex" id="skills">
@@ -95,7 +98,7 @@
         <input type="email" name="email" id="email">
         <label for="message">Message</label>
         <textarea name="message" id="message" cols="30" rows="10"></textarea>
-        <button>Submit</button>
+        <button class="box-shadow">Submit</button>
       </div>
     </form>
   </section>

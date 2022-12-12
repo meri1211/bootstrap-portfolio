@@ -1,5 +1,6 @@
 /* created a section with a class of .grid-container, in order to give it a display of grid. */
-.grid-container {
+/* Realised the readme asked for flexbox grid not display grid.Corrected the issue. */
+/*.grid-container {
     width: 100%;
     display: grid;
     gap: 10px;
@@ -11,7 +12,7 @@
     "ai  calculator"
     "contact  login"
     ;
-    }
+    }*/
 
 
 
