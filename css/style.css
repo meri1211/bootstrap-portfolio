@@ -1,0 +1,27 @@
+.grid-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 3fr 2fr ;
+    grid-template-area:
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
+}
+
+
+
+
+nav {
+    background-color: aquamarine;
+    grid-area: nav;
+
+}
+main {
+    background-color: brown;
+    grid-area: main;
+}
+footer {
+    background-color: cornflowerblue;
+    grid-area: footer;
+}
