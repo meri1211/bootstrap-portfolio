@@ -37,21 +37,21 @@
 .purple:hover {
   background-color: rgb(145, 91, 196);
 }
-.hover-effect:hover {
-    color:rgb(30, 107, 30)
+ul>li:hover {
+    background-color:rgb(30, 107, 30);
 }
 ul {
     display: flex;
-    justify-content:space-around ;
+    justify-content: space-around ;
 }
-
-nav {
-    background-color: aquamarine;
-   }
-main {
-    background-color: brown;
+ul a {
+    text-decoration: none;
+    text-transform: uppercase;
 }
-footer {
-    background-color: cornflowerblue;
-   
+ul li {
+    list-style: none;
+    width: fit-content;
+}
+.box-shadow:hover {
+    box-shadow: 3px 3px rgb(52, 52, 239);
 }
