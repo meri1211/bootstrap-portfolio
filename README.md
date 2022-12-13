@@ -14,12 +14,15 @@ Here is a link to my deployed Github page containing the portfolio: [https://mer
 
 Here is a screenshot of my deployed Bootstrap-Portfolio page: ![alt text](images\portfolioscreenshot.png "Bootstrap-Portfolio").
  ![portfolio screenshot](images\portfolioscreenshot.png "Bootstrap-Portfolio")
+ 
+![portfolioscreenshot](https://user-images.githubusercontent.com/116603793/207397593-44e04b54-7d3f-41a8-b51b-91bf1ac9bc5a.png)
 
 ### License
 
 MIT License
 
 ### Credits
+
 
 N/A
 
