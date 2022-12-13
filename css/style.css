@@ -13,45 +13,70 @@
     "contact  login"
     ;
     } */
+    .row {
+        justify-content: space-around;
+        align-items: center;
+        row-gap: 10px;
+    }
     header {
        position: relative;
        width: 100%;
        height:auto;
        margin-top: 0%;
-      
     }
-.resize {
+    .resize {
     width: 7rem;
     position: absolute;
-}
-  .logo {
-   display: inline-block;
-   top: 100px;
-}
-.resize-banner {
-    width: 100%;
-    max-height: 200px;
-    object-fit:cover;
-    object-position: 3px;
-}
-.purple:hover {
-  background-color: rgb(145, 91, 196);
-}
-ul>li:hover {
-    background-color:rgb(30, 107, 30);
-}
-ul {
+    }
+    .logo {
+     display: inline-block;
+     top: 100px;
+     margin-left: 20px;
+    }
+    .resize-banner {
+      width: 100%;
+      max-height: 200px;
+      object-fit:cover;
+      object-position: 3px;
+    }
+   .purple:hover {
+      background-color: rgb(145, 91, 196);
+    }
+    ul>li:hover {
+      background-color:rgb(30, 107, 30);
+    }
+    ul {
     display: flex;
-    justify-content: space-around ;
-}
-ul a {
-    text-decoration: none;
+    justify-content: space-around;
+    }        
+    ul a {
+      text-decoration: none;
     text-transform: uppercase;
-}
-ul li {
-    list-style: none;
-    width: fit-content;
-}
-.box-shadow:hover {
-    box-shadow: 3px 3px rgb(52, 52, 239);
-}
+    }
+    ul li {
+      list-style: none;
+      width: fit-content;
+    }
+    .box-shadow:hover {
+      box-shadow: 3px 3px rgb(52, 52, 239);
+    }
+    .card {
+        margin: 5px;
+        padding: 10px;
+        border: 3px solid rgb(52, 52, 239);
+        width:40%;
+    }
+   #work:hover {
+       background-color: rgb(139, 221, 221);
+   }
+   #work {
+    padding: 15px;
+    margin-bottom: 20px;
+   }
+   h1, h2, h3 {
+    text-align: center;
+   }
+   .row h3 {
+    padding: 3px;
+    margin: 2px;
+   }
