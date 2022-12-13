@@ -13,7 +13,7 @@ This portfolio helped me put in practice all the concepts learned during the cou
 Here is a link to my deployed Github page containing the portfolio: [https://meri1211.github.io/bootstrap-portfolio/].
 
 Here is a screenshot of my deployed Bootstrap-Portfolio page: ![alt text](images\portfolioscreenshot.png "Bootstrap-Portfolio").
- ![alt text](images\portfolioscreenshot.png "Bootstrap-Portfolio")
+ ![portfolio screenshot](images\portfolioscreenshot.png "Bootstrap-Portfolio")
 
 ### License
 
